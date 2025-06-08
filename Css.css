@@ -1,0 +1,114 @@
+body {
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  overflow: hidden;
+  margin:0;
+}
+.quiz-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 700px; /* Changed from 600px to 700px */
+  overflow: hidden;
+}
+.quiz-header {
+  padding: 5rem;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+button {
+    background-color:#d09ce7 ;
+    color: #fff;
+    border: none;
+  display:center;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: inherit;
+  padding: 1.0rem;
+}
+button:hover {
+  background-color: #af69ce;
+}
+
+button:focus {
+  outline: none;
+  background-color: #9a51b9;
+}
+.quiz-container {
+  width: 700px; /* increased for more space */
+}
+
+/* Flex row to hold spacer + timer */
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 0 1.5rem;
+}
+
+/* Spacer just to push the timer to the right */
+.spacer {
+  flex: 1;
+}
+
+.timer-container {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 30px;
+}
+.button-row button {
+  width: 170px; /* You can adjust this width */
+  white-space: nowrap; /* Prevents button text from wrapping */
+}
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .option {
+    font-weight: 500; /* Medium-bold */
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  .user-answer {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .correct {
+    color: green;
+    font-weight: 600;
+  }
+
+  .wrong {
+    color: red;
+    font-weight: 600;
+  }
